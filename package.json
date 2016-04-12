@@ -1,5 +1,12 @@
 {
-  "name": "REST-api",
+  "name": "restify-api-skeleton",
+  "description": "You can instantly build any powerful NodeJS api server with this Restify API Skeleton. Start building your API in a minute",
+  "author": {
+    "name": "Preview Technologies Limited",
+    "email": "info@previewtechs.com",
+    "url": "https://www.previewtechs.com"
+  },
+  "keywords": ["Restify, Skeleton, API Server, NodeJS API Server, Restify API Server"],
   "version": "0.1.0",
   "scripts": {
     "start": "node app.js"

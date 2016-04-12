@@ -2,7 +2,7 @@ var restify = require('restify');
 var config = require('./config');
 var versioning = require('restify-url-semver');
 var app = restify.createServer({
-    name: 'REST-api',
+    name: 'Restify-API-Skeleton',
     version: '1.0.0'
 });
 
