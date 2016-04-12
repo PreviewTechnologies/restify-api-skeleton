@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "restify": "*",
-    "mongoose": "*"
+    "mongoose": "*",
+    "restify-url-semver": "~1.0.1"
   }
 }
