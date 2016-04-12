@@ -23,7 +23,7 @@ app.listen(config.port, function () {
 
 });
 
-var usersRoutes_v1 = require('./routes/v1/users')(app);
+var usersRoutes_v1 = require('./routes/users')(app);
 
 app.get('/', function (req, res, next) {
     return res.json({

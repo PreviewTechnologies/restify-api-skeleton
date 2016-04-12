@@ -1,7 +1,7 @@
 //This Controller deals with all functionalities of Student
 
 function UsersController () {
-    var Users = require('../models/studentSchema');
+    var Users = require('../models/UsersSchema');
 
     this.createStudent = function (req, res, next) {
         var name = req.params.name;
