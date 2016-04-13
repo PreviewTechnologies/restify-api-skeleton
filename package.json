@@ -6,7 +6,9 @@
     "email": "info@previewtechs.com",
     "url": "https://www.previewtechs.com"
   },
-  "keywords": ["Restify, Skeleton, API Server, NodeJS API Server, Restify API Server"],
+  "keywords": [
+    "Restify, Skeleton, API Server, NodeJS API Server, Restify API Server"
+  ],
   "version": "0.1.0",
   "scripts": {
     "start": "node app.js"
@@ -14,6 +16,7 @@
   "dependencies": {
     "restify": "*",
     "mongoose": "*",
-    "restify-url-semver": "~1.0.1"
+    "restify-url-semver": "~1.0.1",
+    "bcrypt": "~0.8.5"
   }
 }
