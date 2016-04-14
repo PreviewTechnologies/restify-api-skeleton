@@ -20,10 +20,24 @@
  *
  * @apiSuccessExample Success-Response:
  *     HTTP/1.1 200 OK
- *     {
-     *       "username": "shaharia",
-     *       "lastname": "Doe"
-     * }
+ *
+         {
+             "result": {
+                 "success": true,
+                 "message": "New user has been created",
+                 "data": {
+                     "__v": 0,
+                     "password": "$2a$10$tIQodVq/MoXYao7EHKyezuvjPay.CCG5enGx605In4sJOVMIl0nJi",
+                     "_id": "570e2c7c3bfe080c37016586",
+                     "gender": "Male",
+                     "email_address": "shaharia.azsaam@gmail.com",
+                     "nick_name": null,
+                     "last_name": "Azam",
+                     "first_name": "Shaharia",
+                     "username": "shahariaass"
+                 }
+             }
+         }
  *
  * @apiError UserNotFound New User create failed.
  *

@@ -16,11 +16,23 @@ function UsersController () {
             username:username, first_name:first_name, last_name:last_name, nick_name:nick_name, email_address:email_address, gender:gender, password:password
         }, function(err, result) {
             if (err) {
-                console.log(err);
-                return res.send({'error':err});
+                console.log(err.message);
+                return res.send({
+                    'result':{
+                        'success' : false,
+                        'message' : "Failed to create user",
+                        'error' : err
+                    }
+                });
             }
             else {
-                return res.send({'result':result,'status':'successfully saved'});
+                return res.send({
+                    'result':{
+                        'success' : true,
+                        'message' : "New user has been created",
+                        'data' : result,
+                    }
+                });
             }
         });
     };
